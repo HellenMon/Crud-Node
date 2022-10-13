@@ -1,5 +1,6 @@
 const mysql =require('mysql');
 
+
 const conexion = mysql.createConnection({
     host: 'containers-us-west-76.railway.app',
     user: 'root',
