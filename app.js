@@ -11,6 +11,6 @@ app.use('/', require('./router'));
 
 
 app.listen(5000, ()=>{
-    console.log('SERVER corriendo en el http://localhost:5000');
+    console.log('SERVER corriendo en http://localhost:5000');
 });
 
