@@ -10,7 +10,7 @@ app.use(express(json));
 app.use('/', require('./router'));
 
 
-app.listen(5000, ()=>{
-    console.log('SERVER corriendo en http://localhost:5000');
+app.listen(process.env.PORT, ()=>{
+    console.log('SERVER escuchando en PORT');
 });
 

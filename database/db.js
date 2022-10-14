@@ -1,11 +1,12 @@
 const mysql =require('mysql');
 
+
 const conexion = mysql.createConnection({
-    host: 'localhost',
+    host: 'containers-us-west-56.railway.app',
     user: 'root',
-    password: 'n0m3l0',
-    database: 'Node',
-    //port:"3001",
+    password: 'w9KWTEd2VOYwJrytmom9',
+    database: 'railway',
+    PORT:"5820",
 });
 
 conexion.connect((error)=>{
